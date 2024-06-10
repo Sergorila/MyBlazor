@@ -468,6 +468,7 @@
       },
       "MyBlazor.BusinessLogic/1.0.0": {
         "dependencies": {
+          "MyBlazor.DTO": "1.0.0",
           "MyBlazor.DataAccess": "1.0.0",
           "RabbitMQ.Client": "6.8.1"
         },
@@ -483,6 +484,11 @@
         },
         "runtime": {
           "MyBlazor.DataAccess.dll": {}
+        }
+      },
+      "MyBlazor.DTO/1.0.0": {
+        "runtime": {
+          "MyBlazor.DTO.dll": {}
         }
       }
     }
@@ -849,6 +855,11 @@
       "sha512": ""
     },
     "MyBlazor.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyBlazor.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

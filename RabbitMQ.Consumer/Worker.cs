@@ -1,8 +1,7 @@
 using System.Text;
 using System.Text.Json;
-using System.Text.Json.Serialization;
-using MyBlazor.DataAccess.Entities;
 using MyBlazor.DataAccess.Interfaces;
+using MyBlazor.DTO;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using IModel = RabbitMQ.Client.IModel;

@@ -1,6 +1,9 @@
 ﻿@page "/GamesList"
 @using MyBlazor.DataAccess.Entities
 @using MyBlazor.DTO
+@using MyBlazor.UI.Components
+@using System.Text.Json
+@using System.Net
 @inject HttpClient Http
 
 <h3>Список игр</h3>
@@ -8,28 +11,74 @@
 <ul>
     @foreach (var item in _games)
     {
-        <li>
-            @item.Title
-            @item.Cost
-        </li>
-        <button @onclick="() => AddOrder(item.Id, 1)">Заказать</button>
+        <div class="gameItem">
+            <li>
+                @item.Title        Стоимость=@item.Cost
+            </li>
+            <button @onclick="() => AddOrder(item.Id, 1)">Заказать</button>
+        </div>
+        
     }
 </ul>
 
+<Modal @bind-ShowModal="@_modal.ShowModal" Title="@_modal.Title">
+    <p>Номер заказа: №@_lastOrderNumber</p>
+    <p>Дата создания: @_orderToShowDto.CreatedAt.Date</p>
+    <p>Игра: @_orderToShowDto.GameTitle</p>
+    <p>Стоимость заказа: @_orderToShowDto.GameCost.ToString() р.</p>
+    <p>Ключ отправлен на почту: @_orderToShowDto.UserMail</p>
+</Modal>
+
 @code {
     private List<Game> _games = new List<Game>();
-    private string newTodoTitle = "";
+    private OrderToShowDTO _orderToShowDto;
+    public Modal _modal = new Modal();
+    private List<Order> _orders = new List<Order>();
+    private int _lastOrderNumber;
+
 
     protected override async Task OnInitializedAsync()
     {
         _games = await Http.GetFromJsonAsync<List<Game>>("api/Game/api/getgames");
+        _modal.ShowModal = false;
+        _modal.Title = "Был совершен заказ";
+
     }
 
     private async Task AddOrder(int gameId, int userId)
     {
-        var newOrder = new OrderAddDTO() { GameId = gameId, UserId = userId };
+        var newOrder = new OrderAddDTO() { GameId = gameId, UserId = userId, CreatedAt = DateTime.UtcNow};
         var res = await Http.PostAsJsonAsync("api/Order/api/addorder", newOrder);
-        var getRes = await Http.PostAsJsonAsync("api/Order/api/getorder", newOrder);
-        Console.WriteLine(getRes);
+        if (res.StatusCode == HttpStatusCode.OK)
+        {
+            await MakeOrderToShow();
+        }
+        
+    }
+
+    private async Task MakeOrderToShow()
+    {
+        var ordersResponse = await Http.GetFromJsonAsync<List<Order>>("api/Order/api/getorders");
+
+        var currentOrder = ordersResponse.Last();
+        _lastOrderNumber = currentOrder.Id;
+        var getOrder = await Http.GetFromJsonAsync<Order>($"api/Order/api/getorder?id={currentOrder.Id}");
+        var getGame = await Http.GetFromJsonAsync<Game>($"api/Game/api/getgame?id={getOrder.GameId}");
+        var getUser = await Http.GetFromJsonAsync<User>($"api/getuser?id={getOrder.UserId}");
+        var resultOrder = new OrderToShowDTO()
+        {
+            CreatedAt = getOrder.CreatedAt,
+            GameTitle = getGame.Title,
+            GameCost = getGame.Cost,
+            UserMail = getUser.Mail
+        };
+        
+        _orderToShowDto = resultOrder;
+        ShowOrder();
+    }
+
+    private async Task ShowOrder()
+    {
+        _modal.ShowModal = true;
     }
 }

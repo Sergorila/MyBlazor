@@ -74,3 +74,5 @@ F:\blazor\MyBlazor\RabbitMQ.Consumer\obj\Debug\net7.0\refint\RabbitMQ.Consumer.d
 F:\blazor\MyBlazor\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.pdb
 F:\blazor\MyBlazor\RabbitMQ.Consumer\obj\Debug\net7.0\RabbitMQ.Consumer.genruntimeconfig.cache
 F:\blazor\MyBlazor\RabbitMQ.Consumer\obj\Debug\net7.0\ref\RabbitMQ.Consumer.dll
+F:\blazor\MyBlazor\RabbitMQ.Consumer\bin\Debug\net7.0\MyBlazor.DTO.dll
+F:\blazor\MyBlazor\RabbitMQ.Consumer\bin\Debug\net7.0\MyBlazor.DTO.pdb

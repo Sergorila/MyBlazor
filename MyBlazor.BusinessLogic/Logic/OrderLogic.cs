@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using MyBlazor.BusinessLogic.Interfaces;
 using MyBlazor.DataAccess.Entities;
 using MyBlazor.DataAccess.Interfaces;
+using MyBlazor.DTO;
 using MyBlazor.Server.RabbitMQPublisher;
 
 namespace MyBlazor.BusinessLogic.Logic;

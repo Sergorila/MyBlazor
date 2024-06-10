@@ -14,5 +14,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\MyBlazor.DataAccess\MyBlazor.DataAccess.csproj" />
+      <ProjectReference Include="..\MyBlazor.DTO\MyBlazor.DTO.csproj" />
     </ItemGroup>
 </Project>

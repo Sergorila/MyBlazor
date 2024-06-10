@@ -12,7 +12,7 @@ builder.Services.AddSingleton<MyContext>();
 builder.Services.AddTransient<IOrderRepo, OrderRepo>();
 builder.Services.AddHostedService<Worker>();
 
-
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 var host = builder.Build();
 
 host.Run();

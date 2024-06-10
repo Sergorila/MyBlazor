@@ -54,7 +54,7 @@ public class OrderController : ControllerBase
     {
         try
         {
-            var orders = _orderLogic.GetAllAsync();
+            var orders = _orderLogic.GetAllAsync().ToList();
             if (orders != null)
             {
                 return Ok(orders);

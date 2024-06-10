@@ -82,7 +82,6 @@ public class CategoryController : ControllerBase
         try
         {
             await _categoryLogic.CreateAsync(_mapper.Map<Category>(category));
-            CategoryPublisher.CategoryCreated(category);
             return Ok();
         }
         catch (Exception)

@@ -9,6 +9,7 @@
       "RabbitMQ.Consumer/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "7.0.1",
+          "MyBlazor.DTO": "1.0.0",
           "MyBlazor.DataAccess": "1.0.0",
           "RabbitMQ.Client": "6.8.1"
         },
@@ -696,6 +697,11 @@
         "runtime": {
           "MyBlazor.DataAccess.dll": {}
         }
+      },
+      "MyBlazor.DTO/1.0.0": {
+        "runtime": {
+          "MyBlazor.DTO.dll": {}
+        }
       }
     }
   },
@@ -1119,6 +1125,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "MyBlazor.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyBlazor.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

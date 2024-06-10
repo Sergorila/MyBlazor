@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EX48GCWbPTIZr43UYPSKTQdwRbbjfJ1G7zLKspbaLJVCj7VeFagwvZUdElhsxyuhDQPSCGeLAFjKSmlUxlQVqg==",
+  "dgSpecHash": "ADsUW8Fa7BuaLIwzjzWVJCh507onWGCI1hwKyRhukKX2TzKMhWABFawFJIbSnQrCPJsTU/W09bVddq3hljNaxQ==",
   "success": true,
   "projectFilePath": "F:\\blazor\\MyBlazor\\RabbitMQ.Consumer\\RabbitMQ.Consumer.csproj",
   "expectedPackageFiles": [

@@ -1146,6 +1146,16 @@
         "runtime": {
           "bin/placeholder/MyBlazor.DataAccess.dll": {}
         }
+      },
+      "MyBlazor.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyBlazor.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyBlazor.DTO.dll": {}
+        }
       }
     }
   },
@@ -3009,11 +3019,17 @@
       "type": "project",
       "path": "../MyBlazor.DataAccess/MyBlazor.DataAccess.csproj",
       "msbuildProject": "../MyBlazor.DataAccess/MyBlazor.DataAccess.csproj"
+    },
+    "MyBlazor.DTO/1.0.0": {
+      "type": "project",
+      "path": "../MyBlazor.DTO/MyBlazor.DTO.csproj",
+      "msbuildProject": "../MyBlazor.DTO/MyBlazor.DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.Extensions.Hosting >= 7.0.1",
+      "MyBlazor.DTO >= 1.0.0",
       "MyBlazor.DataAccess >= 1.0.0",
       "RabbitMQ.Client >= 6.8.1"
     ]
@@ -3055,6 +3071,9 @@
           "projectReferences": {
             "F:\\blazor\\MyBlazor\\MyBlazor.DataAccess\\MyBlazor.DataAccess.csproj": {
               "projectPath": "F:\\blazor\\MyBlazor\\MyBlazor.DataAccess\\MyBlazor.DataAccess.csproj"
+            },
+            "F:\\blazor\\MyBlazor\\MyBlazor.DTO\\MyBlazor.DTO.csproj": {
+              "projectPath": "F:\\blazor\\MyBlazor\\MyBlazor.DTO\\MyBlazor.DTO.csproj"
             }
           }
         }

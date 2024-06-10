@@ -15,3 +15,5 @@ F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\refint\MyBlazor.Busin
 F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.pdb
 F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.genruntimeconfig.cache
 F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\ref\MyBlazor.BusinessLogic.dll
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\bin\Debug\net7.0\MyBlazor.DTO.dll
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\bin\Debug\net7.0\MyBlazor.DTO.pdb

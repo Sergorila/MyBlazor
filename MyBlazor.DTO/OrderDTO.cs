@@ -1,4 +1,4 @@
-﻿namespace MyBlazor.DataAccess.Entities;
+﻿namespace MyBlazor.DTO;
 
 public class OrderGetDTO
 {
