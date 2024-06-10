@@ -1,0 +1,35 @@
+﻿@page "/GamesList"
+@using MyBlazor.DataAccess.Entities
+@using MyBlazor.DTO
+@inject HttpClient Http
+
+<h3>Список игр</h3>
+
+<ul>
+    @foreach (var item in _games)
+    {
+        <li>
+            @item.Title
+            @item.Cost
+        </li>
+        <button @onclick="() => AddOrder(item.Id, 1)">Заказать</button>
+    }
+</ul>
+
+@code {
+    private List<Game> _games = new List<Game>();
+    private string newTodoTitle = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        _games = await Http.GetFromJsonAsync<List<Game>>("api/Game/api/getgames");
+    }
+
+    private async Task AddOrder(int gameId, int userId)
+    {
+        var newOrder = new OrderAddDTO() { GameId = gameId, UserId = userId };
+        var res = await Http.PostAsJsonAsync("api/Order/api/addorder", newOrder);
+        var getRes = await Http.PostAsJsonAsync("api/Order/api/getorder", newOrder);
+        Console.WriteLine(getRes);
+    }
+}

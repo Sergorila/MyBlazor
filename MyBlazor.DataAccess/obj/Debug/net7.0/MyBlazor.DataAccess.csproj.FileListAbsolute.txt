@@ -1,0 +1,14 @@
+F:\blazor\MyBlazor\MyBlazor.DataAccess\bin\Debug\net7.0\MyBlazor.DataAccess.deps.json
+F:\blazor\MyBlazor\MyBlazor.DataAccess\bin\Debug\net7.0\MyBlazor.DataAccess.runtimeconfig.json
+F:\blazor\MyBlazor\MyBlazor.DataAccess\bin\Debug\net7.0\MyBlazor.DataAccess.dll
+F:\blazor\MyBlazor\MyBlazor.DataAccess\bin\Debug\net7.0\MyBlazor.DataAccess.pdb
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\MyBlazor.DataAccess.csproj.AssemblyReference.cache
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\MyBlazor.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\MyBlazor.DataAccess.AssemblyInfoInputs.cache
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\MyBlazor.DataAccess.AssemblyInfo.cs
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\MyBlazor.DataAccess.csproj.CoreCompileInputs.cache
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\MyBlazor.DataAccess.dll
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\refint\MyBlazor.DataAccess.dll
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\MyBlazor.DataAccess.pdb
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\MyBlazor.DataAccess.genruntimeconfig.cache
+F:\blazor\MyBlazor\MyBlazor.DataAccess\obj\Debug\net7.0\ref\MyBlazor.DataAccess.dll

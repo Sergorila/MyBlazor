@@ -1,0 +1,12 @@
+F:\blazor\MyBlazor\MyBlazor.DTO\bin\Debug\net7.0\MyBlazor.DTO.deps.json
+F:\blazor\MyBlazor\MyBlazor.DTO\bin\Debug\net7.0\MyBlazor.DTO.dll
+F:\blazor\MyBlazor\MyBlazor.DTO\bin\Debug\net7.0\MyBlazor.DTO.pdb
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\MyBlazor.DTO.csproj.AssemblyReference.cache
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\MyBlazor.DTO.GeneratedMSBuildEditorConfig.editorconfig
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\MyBlazor.DTO.AssemblyInfoInputs.cache
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\MyBlazor.DTO.AssemblyInfo.cs
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\MyBlazor.DTO.csproj.CoreCompileInputs.cache
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\MyBlazor.DTO.dll
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\refint\MyBlazor.DTO.dll
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\MyBlazor.DTO.pdb
+F:\blazor\MyBlazor\MyBlazor.DTO\obj\Debug\net7.0\ref\MyBlazor.DTO.dll

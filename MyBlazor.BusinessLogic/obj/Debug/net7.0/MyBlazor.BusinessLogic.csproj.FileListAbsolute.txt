@@ -1,0 +1,17 @@
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\bin\Debug\net7.0\MyBlazor.BusinessLogic.deps.json
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\bin\Debug\net7.0\MyBlazor.BusinessLogic.runtimeconfig.json
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\bin\Debug\net7.0\MyBlazor.BusinessLogic.dll
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\bin\Debug\net7.0\MyBlazor.BusinessLogic.pdb
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\bin\Debug\net7.0\MyBlazor.DataAccess.dll
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\bin\Debug\net7.0\MyBlazor.DataAccess.pdb
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.csproj.AssemblyReference.cache
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.AssemblyInfoInputs.cache
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.AssemblyInfo.cs
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.csproj.CoreCompileInputs.cache
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.csproj.CopyComplete
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.dll
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\refint\MyBlazor.BusinessLogic.dll
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.pdb
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\MyBlazor.BusinessLogic.genruntimeconfig.cache
+F:\blazor\MyBlazor\MyBlazor.BusinessLogic\obj\Debug\net7.0\ref\MyBlazor.BusinessLogic.dll
